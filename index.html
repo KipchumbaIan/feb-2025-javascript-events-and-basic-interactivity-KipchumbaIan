@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Event Handling & Interactive Elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Event Handling & Interactive Elements</h1>
+
+    <!-- Event Handling Section -->
+    <section id="event-handling">
+        <h2>Event Handling</h2>
+        <button id="click-button">Click Me!</button>
+        <button id="hover-button">Hover Over Me!</button>
+        <input type="text" id="keypress-input" placeholder="Press any key...">
+        <p id="keypress-output"></p>
+        <button id="secret-button">Double Click or Long Press Me!</button>
+        <p id="secret-message" style="display: none;">Secret Message!</p>
+    </section>
+
+    <!-- Interactive Elements Section -->
+    <section id="interactive-elements">
+        <h2>Interactive Elements</h2>
+        <div id="gallery">
+            <img src="D:/IMG_8685.JPG" alt="Gallery Image 1" class="gallery-image">
+            <img src="https://via.placeholder.com/300x200" alt="Gallery Image 2" class="gallery-image" style="display: none;">
+            <img src="https://via.placeholder.com/300x200" alt="Gallery Image 3" class="gallery-image" style="display: none;">
+            <button id="prev-button">Previous</button>
+            <button id="next-button">Next</button>
+        </div>
+        <div id="tabs">
+            <button class="tab-button active" data-tab="tab1">Tab 1</button>
+            <button class="tab-button" data-tab="tab2">Tab 2</button>
+            <button class="tab-button" data-tab="tab3">Tab 3</button>
+            <div id="tab1" class="tab-content active">Content for Tab 1</div>
+            <div id="tab2" class="tab-content">Content for Tab 2</div>
+            <div id="tab3" class="tab-content">Content for Tab 3</div>
+        </div>
+    </section>
+
+    <!-- Form Validation Section -->
+    <section id="form-validation">
+        <h2>Form Validation</h2>
+        <form id="validation-form">
+            <input type="email" id="email-input" placeholder="Email" required>
+            <p id="email-error" class="error"></p>
+            <input type="password" id="password-input" placeholder="Password" required>
+            <p id="password-error" class="error"></p>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
